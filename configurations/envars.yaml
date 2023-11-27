@@ -1,0 +1,10 @@
+# DISCORD BOT
+DISCORD_BOT_NAME: Mamank Garox
+DISCORD_BOT_AVATAR: https://qph.cf2.quoracdn.net/main-qimg-c2108cee7b7917f80d8f6182a7a0a8ee-lq
+
+# Discord Webhook URL Structure
+# https://discord.com/api/webhooks/{DISCORD_WEBHOOK_ID}/{DISCORD_WEBHOOK_TOKEN}
+DISCORD_WEBHOOK_ID: "0123456789"
+DISCORD_WEBHOOK_TOKEN: NamaSayaAdalahAlFariqyRaihanAliasQywokwkwkwkwkwkw
+
+DISCORD_TEAM_TAG: "@everyone \n@Cloud Engineer \n@ML Engineer \n@Mobile Engineer "

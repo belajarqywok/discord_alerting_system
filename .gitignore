@@ -1,0 +1,12 @@
+# main
+/configurations/envars-prod.yaml
+
+run.bat
+.terraform.lock.hcl
+
+# Budget Alert Service
+/services/budget_service/.vscode
+/services/budget_service/run.bat
+
+# Alert Policy Service
+/services/policy_service/main.go

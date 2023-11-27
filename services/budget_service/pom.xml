@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.BudgetService</groupId>
+	<artifactId>budget_service</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>budget_service</name>
+	<description>Budget Service Cloud Functions</description>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+    	<maven.compiler.source>11</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<!-- Log4J API -->
+		<dependency>
+        	<groupId>org.apache.logging.log4j</groupId>
+        	<artifactId>log4j-api</artifactId>
+        	<version>2.20.0</version>
+    	</dependency>
+
+		<!-- Log4J Core -->
+		<dependency>
+        	<groupId>org.apache.logging.log4j</groupId>
+        	<artifactId>log4j-core</artifactId>
+        	<version>2.20.0</version>
+    	</dependency>
+
+		<!-- OkHTTP -->
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>4.9.3</version>
+        </dependency>
+        
+		<!-- Jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+
+		<!-- Google Cloud Functions -->
+		<dependency>
+			<groupId>com.google.cloud.functions</groupId>
+			<artifactId>functions-framework-api</artifactId>
+			<version>1.0.1</version>
+			<type>jar</type>
+    	</dependency>
+
+		<!-- Gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.8</version>
+    	</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<excludes>
+						<exclude>.google/</exclude>
+					</excludes>
+				</configuration>
+      		</plugin>
+		</plugins>
+	</build>
+
+</project>

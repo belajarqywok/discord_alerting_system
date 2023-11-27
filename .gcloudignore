@@ -1,0 +1,10 @@
+/.git
+/tests
+
+.gitignore
+.gcloudignore
+
+main.go
+install.sh
+envars.yaml
+envars-prod.yaml

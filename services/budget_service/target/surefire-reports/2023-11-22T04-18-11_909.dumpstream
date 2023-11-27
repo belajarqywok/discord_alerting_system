@@ -1,0 +1,5 @@
+# Created at 2023-11-22T04:18:13.856
+Boot Manifest-JAR contains absolute paths in classpath 'F:\projects\devops projects\functions_alerting_discord\services\budget_service\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
