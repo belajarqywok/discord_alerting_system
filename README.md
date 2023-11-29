@@ -19,5 +19,9 @@ Alerting system connected to Discord (via webhook) by implementing Event-Driven 
 
 ## Implementation Example
 <p align="center">
-    <img src="images/discord.jpg"></img>
+    <img src="images/alert_policy.jpg"></img>
+</p>
+<br/>
+<p align="center">
+    <img src="images/budget_alert.jpg"></img>
 </p>
