@@ -1,5 +1,6 @@
 package com.BudgetService;
 
+import java.util.Base64;
 import java.io.IOException;
 
 import okhttp3.Request;
@@ -37,7 +38,10 @@ public class BudgetServiceApplication implements BackgroundFunction<MessageSchem
         try {
             // Pub/Sub Message Data
             BudgetAlertSchema pubSubMessageData = objectMapper
-                .readValue(budgetMessage.getData(), BudgetAlertSchema.class);
+                .readValue(
+                    Base64.getDecoder().decode(budgetMessage.getData()), 
+                    BudgetAlertSchema.class
+                );
 
             // Convert JSON Object to String
             DiscordMessageLayout messageLayout = new DiscordMessageLayout();
